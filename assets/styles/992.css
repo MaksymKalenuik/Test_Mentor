@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+
+}
+@media (max-width: 992px) {
+    header .navbar .nav-item{
+        padding-right: 0;
+    }
+    header .banner{
+        height: 400px;
+    }
+    header .banner-text-position{
+        margin-top: 40px;
+    }
+}
+@media(min-width: 768px)and (max-width: 992px){
+    .box svg{
+        height: 100px!important;
+        width: 100px!important;
+    }
+    .card{
+        padding: 10px!important;
+    }
+}

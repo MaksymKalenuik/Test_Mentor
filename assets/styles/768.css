@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+@media (max-width: 768px)
+{
+    .box{
+        margin: 0!important;
+    }
+    .box svg{
+        width: 20% !important;
+    }
+    .box-content{
+        padding-left: 0px!important;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-items {
+        display: none;
+    }
+    .menu-toggle:checked ~ .nav-items {
+        display: block;
+    }
+
+    .card-2{
+        background-position-x: 0px!important;
+    }
+    .footer-form{
+        margin-top: 10px;
+    }
+
+    header .banner{
+        height: 300px;
+    }
+    header .banner-text-position{
+        margin-top:30px;
+    }
+}

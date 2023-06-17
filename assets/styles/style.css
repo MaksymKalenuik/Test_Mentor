@@ -1,0 +1,329 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+
+.navbar {
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.nav-items {
+  float: right;
+  justify-content: end;
+}
+
+.navbar-icon {
+  filter: invert(100%);
+}
+
+.navbar {
+  position: relative;
+  z-index: 5;
+}
+.navbar .wrapper .row .nav-items .nav-item .nav-link a {
+  color: white;
+}
+.navbar .wrapper .row .nav-items .nav-item .nav-link a:hover {
+  color: #fce38a;
+  border-bottom: 2px solid #fce38a;
+  padding-bottom: 5px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8)), url("/assets/images/banner/banner.png");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+header .banner {
+  height: 800px;
+}
+
+.banner-text-position {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 1;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-text-position .banner-text {
+  color: white;
+}
+.banner-text-position .banner-text h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 130px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.banner-text-position .banner-text h4 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 50px;
+  margin: 0;
+}
+.banner-text-position .banner-text button {
+  font-size: 20px;
+  color: white;
+  background: none;
+  text-transform: uppercase;
+  border: 3px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  top: 100px;
+  cursor: pointer;
+}
+.banner-text-position .banner-text button:hover {
+  color: #fce38a;
+  border: 3px solid #fce38a !important;
+}
+
+.bottom-content {
+  height: 100%;
+  background: white;
+  width: 100%;
+}
+.bottom-content .amazing-boxes .column-boxes {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.bottom-content .amazing-boxes .column-boxes .box {
+  margin: 10px;
+}
+.bottom-content .amazing-boxes .column-boxes .box .box-content {
+  text-align: start;
+  padding-left: 20px;
+}
+.bottom-content .amazing-boxes .column-boxes .box .box-content h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.bottom-content .amazing-boxes .column-boxes .box .box-content p {
+  font-size: 17px;
+}
+
+.amazing-title {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.amazing-title h2 {
+  font-family: "Kaushan Script", cursive;
+}
+.amazing-title h1 {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+}
+.amazing-title .red-block {
+  height: 5px;
+  width: 40px;
+  background: red;
+}
+
+.team-title {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.team-title h2 {
+  font-family: "Kaushan Script", cursive;
+}
+.team-title h1 {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+}
+.team-title .red-block {
+  height: 5px;
+  width: 40px;
+  background: red;
+}
+.team-title .team-top-gray-text {
+  color: lightgray;
+  font-size: 15px;
+}
+
+.team-cards .card-1:hover {
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8)), url("/assets/images/team/team1.png");
+  background-position-x: -130px;
+  background-size: cover;
+  box-shadow: 10px 10px #95e1d3;
+}
+.team-cards .card-1:hover .card-socials-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.team-cards .card-2:hover {
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8)), url("/assets/images/team/team2.png");
+  background-position-x: -120px;
+  background-size: cover;
+  box-shadow: 10px 10px #95e1d3;
+}
+.team-cards .card-2:hover .card-socials-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.team-cards .card-3:hover {
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8)), url("/assets/images/team/team3.png");
+  background-position-x: -200px;
+  background-size: cover;
+  box-shadow: 10px 10px #95e1d3;
+}
+.team-cards .card-3:hover .card-socials-hover {
+  display: flex;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -25%);
+}
+.team-cards .card-1 {
+  height: 500px;
+  width: 100%;
+  background-image: url("/assets/images/team/team1.png");
+  background-size: cover;
+  background-position-x: -130px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.team-cards .card-2 {
+  height: 500px;
+  width: 100%;
+  background-image: url("/assets/images/team/team2.png");
+  background-size: cover;
+  background-position-x: -120px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.team-cards .card-3 {
+  height: 500px;
+  width: 100%;
+  background-image: url("/assets/images/team/team3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+}
+.team-cards .card-title .card-name h6 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.team-cards .card-title .card-departament h4 {
+  color: lightgray;
+  font-size: 17px;
+  font-family: "Playball", cursive;
+}
+
+.socials-groups {
+  cursor: pointer;
+  height: 40px;
+}
+.socials-groups .inst {
+  background: #fce38a;
+}
+.socials-groups .inst svg {
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socials-groups .inst:hover {
+  background: #f38181;
+}
+.socials-groups .inst:hover svg {
+  fill: white;
+}
+.socials-groups .twitter {
+  background: #fce38a;
+}
+.socials-groups .twitter svg {
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socials-groups .twitter:hover {
+  background: #f38181;
+}
+.socials-groups .twitter:hover svg {
+  fill: white;
+}
+.socials-groups .pinterest {
+  background: #fce38a;
+}
+.socials-groups .pinterest svg {
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socials-groups .pinterest:hover {
+  background: #f38181;
+}
+.socials-groups .pinterest:hover svg {
+  fill: white;
+}
+.socials-groups .facebook {
+  background: #fce38a;
+}
+.socials-groups .facebook svg {
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socials-groups .facebook:hover {
+  background: #f38181;
+}
+.socials-groups .facebook:hover svg {
+  fill: white;
+}
+
+.footer .footer-color-text {
+  color: #f38181;
+  margin: 0;
+}
+.footer .footer-form input {
+  border: 1px solid lightgray;
+}
+.footer .footer-form input:hover {
+  border: 1px solid #fce38a;
+}
+.footer .footer-form button {
+  color: white;
+  background: #95e1d3;
+  border: none;
+  text-transform: uppercase;
+}
+.footer .footer-form button:hover {
+  background: #f38181;
+}
+
+/*# sourceMappingURL=style.css.map */

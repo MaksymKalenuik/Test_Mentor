@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+    header .banner{
+        height: 800px;
+    }
+    .banner-text-position{
+        height: 700px;
+    }
+    .banner-text h1{
+        font-size: 130px!important;
+        margin: 0;
+    }
+    .banner-text h4{
+        font-size: 70px!important;
+        margin: 0;
+    }
+    .banner-text button{
+        font-size: 20px!important;
+        top: 100px!important;
+        position: relative;
+
+    }
+}
+@media (max-width: 1200px) {
+
+}
+@media(min-width: 992px) and (max-width: 1200px){
+    header .banner{
+        height: 450px;
+    }
+    .banner-text-position{
+        height: 500px;
+    }
+    .box svg{
+        height: 100px!important;
+        width: 100px!important;
+    }
+    .card{
+        padding: 10px!important;
+    }
+
+}
